@@ -2,7 +2,7 @@
 
 Tokex is a simple bug-bounty tool for auto recon and hunting Secret Key in Web Files.
 
-# Installation
+## Installation
 
 1. Install gau
 ```
@@ -25,7 +25,7 @@ cd tokex.sh
 ln -sf $(pwd)/tokex.sh /usr/bin/tokex.sh
 ```
 
-# Setting
+## Setting
 
 Nuclei and gau binary in `tokex.sh`
 ```
@@ -33,7 +33,7 @@ NUCLEI_BIN="${HOME}/go/bin/nuclei"
 GAU_BIN="${HOME}/go/bin/gau"
 ```
 
-# Usage
+## Usage
 ```
 tokex.sh www.example.com
 ```
