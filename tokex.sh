@@ -23,7 +23,7 @@ if [[ -z ${TARGET_FQDN} ]]; then
 	echo "   $ tokex.sh www.example.com"
 fi
 
-echo " [ Target: ${TARGET_FQDN} ]"
+echo "[INFO] Target: ${TARGET_FQDN}"
 
 if [[ -f ${FILE_TEMP} ]]; then
 	rm ${FILE_TEMP}
@@ -46,4 +46,4 @@ if [[ -f ${FILE_TEMP} ]]; then
 	rm ${FILE_TEMP}
 fi
 
-echo " DONE!"
+echo "[INFO] DONE!"
