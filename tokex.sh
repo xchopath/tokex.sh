@@ -80,4 +80,4 @@ fi
 echo ""
 echo "INFO: Finished!"
 echo "INFO: Total findings $(cat ${RESULT_FILE} | wc -l)"
-echo "INFO: Tesult file location ${RESULT_FILE}"
+echo "INFO: Result file location ${RESULT_FILE}"
