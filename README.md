@@ -43,7 +43,7 @@ bash tokex.sh fqdn.domain
 Example:
 
 ```
-$ bash tokex.sh example.com
+$ bash tokex.sh redacted.com
 
   _        _             
  | |_ ___ | | _______  __
@@ -52,12 +52,12 @@ $ bash tokex.sh example.com
   \__\___/|_|\_\___/_/\_\
   Token Exposure Finder!
 
-INFO: Target example.com
+INFO: Target redacted.com
 INFO: Checking HTTP connection...
-INFO: Getting historical links example.com...
-INFO: Crawling http://example.com/...
+INFO: Getting historical links redacted.com...
+INFO: Crawling https://redacted.com/...
 INFO: Finding secret key <####################################### > 99%
 INFO: Finished!
-INFO: Total findings: 0
-INFO: Tesult file location tokex_results_1680248289.22646.txt
+INFO: Total findings: 3
+INFO: Result file location tokex_results_1680248289.22646.txt
 ```
