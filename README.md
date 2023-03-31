@@ -37,6 +37,12 @@ NUCLEI_BIN="${HOME}/go/bin/nuclei"
 ## Usage
 
 ```
+bash tokex.sh fqdn.domain
+```
+
+Example:
+
+```
 $ bash tokex.sh example.com
 
   _        _             
