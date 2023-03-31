@@ -1,6 +1,6 @@
 # tokex.sh
 
-Token exposure finder - A simple helper tool for auto-recon and crawl for hunting secret key through web files and web pages.
+Token exposure finder - A simple helper tool for auto-recon and crawl for hunting secret key through web files and web pages with crawling and OSINT methodology.
 
 ### Requirements
 - `Golang`
