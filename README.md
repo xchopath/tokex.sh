@@ -37,5 +37,21 @@ NUCLEI_BIN="${HOME}/go/bin/nuclei"
 ## Usage
 
 ```
-bash tokex.sh www.example.com
+$ bash tokex.sh example.com
+
+  _        _             
+ | |_ ___ | | _______  __
+ | __/ _ \| |/ / _ \ \/ /
+ | || (_) |   <  __/>  < 
+  \__\___/|_|\_\___/_/\_\
+  Token Exposure Finder!
+
+INFO: Target example.com
+INFO: Checking HTTP connection...
+INFO: Getting historical links example.com...
+INFO: Crawling http://example.com/...
+INFO: Finding secret key <####################################### > 99%
+INFO: Finished!
+INFO: Total findings: 0
+INFO: Tesult file location tokex_results_1680248289.22646.txt
 ```
